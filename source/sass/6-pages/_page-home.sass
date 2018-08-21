@@ -5,15 +5,26 @@
 .main-section
   padding: 5px 5px
 
-header, .gigantic
+.intro, .gigantic
   text-transform: capitalize
   color: $super-pink
   font-family: 'Raleway'
   font-weight: 900
+  @media only screen and (max-width: 680px)
+    font-size: 38px
+    padding: 12px 0
+    margin-left: 1rem
 
 h2, .bigger
-    color: $rich-black
+  color: $rich-black
+  @media only screen and (max-width: 680px)
+    font-size: 10px
+    margin-left: 1rem
 
 .sass-paragraph
   margin-top: 5rem
   font-size: 20px
+  @media only screen and (max-width: 680px)
+    font-size: 8px
+    margin-left: 1rem
+    margin-top: 1rem

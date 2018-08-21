@@ -323,12 +323,23 @@ hr {
   margin-top: 2rem;
   text-align: center;
   font-family: 'Raleway'; }
+  @media only screen and (max-width: 680px) {
+    .sass, .large {
+      font-size: 12px;
+      margin-left: -0.2rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem; } }
 
 .logo {
   padding: 10px 0;
   margin-left: -1rem;
   margin-top: 2rem;
   margin-bottom: 0.5rem; }
+  @media only screen and (max-width: 680px) {
+    .logo {
+      width: 100%;
+      margin-top: -5rem;
+      margin-bottom: -5rem; } }
 
 #navbar {
   height: 100%;
@@ -343,6 +354,9 @@ hr {
   -webkit-box-shadow: 10px 10px -10px 10px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 10px 10px -10px 10px rgba(0, 0, 0, 0.23);
   box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.23); }
+  @media only screen and (max-width: 680px) {
+    #navbar {
+      width: 6rem; } }
 
 #navbar a, li {
   padding: 2px 0;
@@ -353,11 +367,12 @@ hr {
   font-weight: 700;
   color: #CF649A;
   display: block; }
-  #navbar a:hover, li:hover {
-    color: #F2E1E1; }
   @media only screen and (max-width: 680px) {
     #navbar a, li {
-      font-size: 16px; } }
+      font-size: 8px;
+      margin-left: -1rem; } }
+  #navbar a:hover, li:hover {
+    color: #F2E1E1; }
 
 .flex-video {
   height: 0;
@@ -383,15 +398,29 @@ hr {
 .main-section {
   padding: 5px 5px; }
 
-header, .gigantic {
+.intro, .gigantic {
   text-transform: capitalize;
   color: #CF649A;
   font-family: 'Raleway';
   font-weight: 900; }
+  @media only screen and (max-width: 680px) {
+    .intro, .gigantic {
+      font-size: 38px;
+      padding: 12px 0;
+      margin-left: 1rem; } }
 
 h2, .bigger {
   color: #09051E; }
+  @media only screen and (max-width: 680px) {
+    h2, .bigger {
+      font-size: 10px;
+      margin-left: 1rem; } }
 
 .sass-paragraph {
   margin-top: 5rem;
   font-size: 20px; }
+  @media only screen and (max-width: 680px) {
+    .sass-paragraph {
+      font-size: 8px;
+      margin-left: 1rem;
+      margin-top: 1rem; } }

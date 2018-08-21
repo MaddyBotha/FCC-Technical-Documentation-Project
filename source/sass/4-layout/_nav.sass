@@ -4,7 +4,11 @@
   margin-top: 2rem
   text-align: center
   font-family: 'Raleway'
-
+  @media only screen and (max-width: 680px)
+    font-size: 12px
+    margin-left: -0.2rem
+    margin-top: 1rem
+    margin-bottom: 0.5rem
 
 // Navbar
 .logo
@@ -12,6 +16,10 @@
   margin-left: -1rem
   margin-top: 2rem
   margin-bottom: 0.5rem
+  @media only screen and (max-width: 680px)
+    width: 100%
+    margin-top: -5rem
+    margin-bottom: -5rem
 
 #navbar
   height: 100%
@@ -26,6 +34,8 @@
   -webkit-box-shadow: 10px 10px -10px 10px rgba(0,0,0,0.23)
   -moz-box-shadow: 10px 10px -10px 10px rgba(0,0,0,0.23)
   box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.23)
+  @media only screen and (max-width: 680px)
+    width: 6rem
 
 #navbar a, li
   padding: 2px 0
@@ -36,7 +46,8 @@
   font-weight: 700
   color: $super-pink
   display: block
+  @media only screen and (max-width: 680px)
+    font-size: 8px
+    margin-left: -1rem
   &:hover
     color: $misty-rose
-  @media only screen and (max-width: 680px)
-    font-size: 16px
