@@ -319,31 +319,16 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
-.flex-video {
-  height: 0;
-  margin-bottom: 0.88889rem;
-  overflow: hidden;
-  padding-bottom: 56%;
-  position: relative; }
-
-.flex-video iframe,
-.flex-video object,
-.flex-video embed,
-.flex-video video {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  left: 0; }
-
-header {
+.sass, .large {
   margin-top: 2rem;
   text-align: center;
   font-family: 'Raleway'; }
 
 .logo {
   padding: 10px 0;
-  margin-bottom: 2rem; }
+  margin-left: -1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem; }
 
 #navbar {
   height: 100%;
@@ -373,3 +358,40 @@ header {
   @media only screen and (max-width: 680px) {
     #navbar a, li {
       font-size: 16px; } }
+
+.flex-video {
+  height: 0;
+  margin-bottom: 0.88889rem;
+  overflow: hidden;
+  padding-bottom: 56%;
+  position: relative; }
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0; }
+
+#main-doc {
+  margin-left: 5rem;
+  padding: 0; }
+
+.main-section {
+  padding: 5px 5px; }
+
+header, .gigantic {
+  text-transform: capitalize;
+  color: #CF649A;
+  font-family: 'Raleway';
+  font-weight: 900; }
+
+h2, .bigger {
+  color: #09051E; }
+
+.sass-paragraph {
+  margin-top: 5rem;
+  font-size: 20px; }
