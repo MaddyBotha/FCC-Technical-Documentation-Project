@@ -319,60 +319,41 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
-.sass, .large {
-  margin-top: 2rem;
-  text-align: center;
-  font-family: 'Raleway'; }
-  @media only screen and (max-width: 680px) {
-    .sass, .large {
-      font-size: 12px;
-      margin-left: -0.2rem;
-      margin-top: 1rem;
-      margin-bottom: 0.5rem; } }
-
-.logo {
-  padding: 10px 0;
-  margin-left: -1rem;
-  margin-top: 2rem;
-  margin-bottom: 0.5rem; }
-  @media only screen and (max-width: 680px) {
-    .logo {
-      width: 100%;
-      margin-top: -5rem;
-      margin-bottom: -5rem; } }
-
-#navbar {
+.grid-wrapper {
   height: 100%;
-  width: 25rem;
+  width: 350px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #FCFCFC;
-  overflow-x: hidden;
+  background: #F2F2F2;
+  overflow: hidden;
   padding-top: 20px;
-  -webkit-box-shadow: 10px 10px -10px 10px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 10px 10px -10px 10px rgba(0, 0, 0, 0.23);
-  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.23); }
-  @media only screen and (max-width: 680px) {
-    #navbar {
-      width: 6rem; } }
+  -webkit-box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75); }
 
-#navbar a, li {
-  padding: 2px 0;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-size: 20px;
+.top-header {
+  margin: 1.5rem 0;
+  margin-left: 1rem; }
+
+.sass-logo {
+  margin: 0 1.5rem;
+  margin-left: 3rem; }
+
+.nav-features {
+  list-style-type: none;
+  font-size: 35px;
   font-family: 'Raleway';
   font-weight: 700;
-  color: #CF649A;
-  display: block; }
-  @media only screen and (max-width: 680px) {
-    #navbar a, li {
-      font-size: 8px;
-      margin-left: -1rem; } }
-  #navbar a:hover, li:hover {
-    color: #F2E1E1; }
+  text-transform: capitalize;
+  margin: 1rem auto; }
+  .nav-features a {
+    text-decoration: none;
+    color: #CF649A;
+    display: block; }
+    .nav-features a:hover, .nav-features a:focus {
+      color: #F2E1E1; }
 
 .flex-video {
   height: 0;
@@ -390,37 +371,3 @@ hr {
   top: 0;
   width: 100%;
   left: 0; }
-
-#main-doc {
-  margin-left: 5rem;
-  padding: 0; }
-
-.main-section {
-  padding: 5px 5px; }
-
-.intro, .gigantic {
-  text-transform: capitalize;
-  color: #CF649A;
-  font-family: 'Raleway';
-  font-weight: 900; }
-  @media only screen and (max-width: 680px) {
-    .intro, .gigantic {
-      font-size: 38px;
-      padding: 12px 0;
-      margin-left: 1rem; } }
-
-h2, .bigger {
-  color: #09051E; }
-  @media only screen and (max-width: 680px) {
-    h2, .bigger {
-      font-size: 10px;
-      margin-left: 1rem; } }
-
-.sass-paragraph {
-  margin-top: 5rem;
-  font-size: 20px; }
-  @media only screen and (max-width: 680px) {
-    .sass-paragraph {
-      font-size: 8px;
-      margin-left: 1rem;
-      margin-top: 1rem; } }

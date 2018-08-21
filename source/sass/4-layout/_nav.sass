@@ -1,53 +1,36 @@
-
-// Header
-.sass, .large
-  margin-top: 2rem
-  text-align: center
-  font-family: 'Raleway'
-  @media only screen and (max-width: 680px)
-    font-size: 12px
-    margin-left: -0.2rem
-    margin-top: 1rem
-    margin-bottom: 0.5rem
-
-// Navbar
-.logo
-  padding: 10px 0
-  margin-left: -1rem
-  margin-top: 2rem
-  margin-bottom: 0.5rem
-  @media only screen and (max-width: 680px)
-    width: 100%
-    margin-top: -5rem
-    margin-bottom: -5rem
-
-#navbar
+.grid-wrapper
   height: 100%
-  width: 25rem
+  width: 350px
   position: fixed
   z-index: 1
   top: 0
   left: 0
-  background-color: $baby-powder
-  overflow-x: hidden
+  background: $anti-flash-white
+  overflow: hidden
   padding-top: 20px
-  -webkit-box-shadow: 10px 10px -10px 10px rgba(0,0,0,0.23)
-  -moz-box-shadow: 10px 10px -10px 10px rgba(0,0,0,0.23)
-  box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.23)
-  @media only screen and (max-width: 680px)
-    width: 6rem
+  -webkit-box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.75)
+  -moz-box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.75)
+  box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.75)
 
-#navbar a, li
-  padding: 2px 0
-  text-decoration: none
-  text-transform: capitalize
-  font-size: 20px
+.top-header
+  margin: 1.5rem 0
+  margin-left: 1rem
+
+.sass-logo
+  margin: 0 1.5rem
+  margin-left: 3rem
+
+.nav-features
+  list-style-type: none
+  font-size: 35px
   font-family: 'Raleway'
   font-weight: 700
-  color: $super-pink
-  display: block
-  @media only screen and (max-width: 680px)
-    font-size: 8px
-    margin-left: -1rem
-  &:hover
-    color: $misty-rose
+  text-transform: capitalize
+  margin: 1rem auto
+  a
+    text-decoration: none
+    color: $super-pink
+    display: block
+    &:hover,
+    &:focus
+      color: $misty-rose
