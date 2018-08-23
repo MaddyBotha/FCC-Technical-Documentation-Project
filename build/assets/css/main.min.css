@@ -204,7 +204,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  padding: 20px 60px;
+  padding: 20px 40px;
   color: black;
   text-align: center;
   font-size: 14px;
@@ -213,7 +213,7 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: white;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
   box-sizing: border-box;
   transition: all 0.2s ease; }
@@ -260,7 +260,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 900;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); }
 
@@ -278,7 +278,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .large, h2 {
   font-size: 42px;
-  line-height: 1.14; }
+  line-height: 1.14;
+  margin: 3px 0; }
   @media only screen and (max-width: 680px) {
     .large, h2 {
       font-size: 32px; } }
@@ -304,7 +305,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0 0 20px 0;
   font-weight: 400;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: 'Raleway'; }
 
 em {
   font-style: italic; }
@@ -332,21 +334,31 @@ hr {
   -webkit-box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75); }
+  @media only screen and (max-width: 1024px) {
+    .grid-wrapper {
+      width: 20%; } }
 
 .top-header {
-  margin: 1.5rem 0;
-  margin-left: 1rem; }
+  margin: 1.5rem auto;
+  margin-left: 1rem auto; }
+  @media only screen and (max-width: 1024px) {
+    .top-header {
+      font-size: 24px;
+      margin: 1.2rem auto;
+      margin-left: 1rem; } }
 
 .sass-logo {
-  margin: 0 1.5rem;
   margin-left: 3rem; }
+  @media only screen and (max-width: 1024px) {
+    .sass-logo {
+      width: 50%; } }
 
 .nav-features {
   list-style-type: none;
   font-size: 35px;
   font-family: 'Raleway';
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin: 1rem auto; }
   .nav-features a {
     text-decoration: none;
@@ -354,6 +366,86 @@ hr {
     display: block; }
     .nav-features a:hover, .nav-features a:focus {
       color: #F2E1E1; }
+  @media only screen and (max-width: 1024px) {
+    .nav-features a {
+      font-size: 15px;
+      margin: 0.2rem auto; } }
+
+#main-doc {
+  margin-left: 14rem;
+  margin-top: 2rem; }
+
+.main-header {
+  text-transform: capitalize; }
+
+.par-section {
+  margin-top: 0.5rem;
+  font-size: 15px; }
+
+.code {
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  padding: 5px 12px;
+  margin-right: 5px;
+  border: 1px solid #eef;
+  background: #F2E1E1;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 15px;
+  width: 50%; }
+
+.nested {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0 12px; }
+
+.bigger, .header-one {
+  text-transform: capitalize;
+  margin-left: 1rem; }
+
+.source a {
+  color: #CF649A; }
+  .source a:hover {
+    color: #381D2A; }
+
+#social-info {
+  margin-top: 4rem;
+  padding: 10px 2px 10px 2px; }
+
+.contacts {
+  margin-left: 17rem; }
+
+@media only screen and (max-width: 1024px) {
+  .contacts a {
+    margin-left: 8.5rem; } }
+
+@media only screen and (max-width: 1024px) {
+  .contacts a {
+    margin-left: 5.5rem; } }
+
+.fa-github {
+  color: #1F655B;
+  font-size: 2rem; }
+
+.fa-free-code-camp {
+  color: #A22347;
+  font-size: 2rem; }
+
+.fa-codepen {
+  color: #224468;
+  font-size: 2rem; }
+
+.profile {
+  font-family: 'Ubuntu';
+  text-shadow: 3px 0px 2px #CF649A;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2rem; }
+  @media only screen and (max-width: 1024px) {
+    .profile .profile {
+      margin-top: 4rem;
+      font-size: 20px; } }
 
 .flex-video {
   height: 0;
