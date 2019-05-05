@@ -1,4 +1,4 @@
-# FCC (FreeCodeCamp) - Tribute Page
+# FCC (FreeCodeCamp) - Technical Documentation Page
 ---
 
 ## Project Objective
